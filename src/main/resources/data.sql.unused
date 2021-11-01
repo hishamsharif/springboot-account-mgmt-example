@@ -1,0 +1,9 @@
+
+
+insert into customers values (1, 'Bob', 'bob@abc.com');
+insert into customers values (2, 'John Doe', 'john@abc.com');
+
+ 
+
+
+ 
