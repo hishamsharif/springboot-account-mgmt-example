@@ -154,3 +154,10 @@
 2021-11-01 14:58:08.648 DEBUG 47443 --- [http-nio-8080-exec-3] c.n.a.d.service.CustomerServiceImpl      : Creating Customer 
 2021-11-01 14:58:13.959 DEBUG 47443 --- [http-nio-8080-exec-5] c.n.ams.adaptor.api.CustomerController   : Get All customers - results >> [Customer(id=100, name=John, email=john@abc.com)]
 2021-11-01 14:58:19.714 DEBUG 47443 --- [http-nio-8080-exec-6] c.n.ams.adaptor.api.CustomerController   : Get All customers - results >> [Customer(id=100, name=John, email=john@abc.com)]
+2021-11-01 21:52:55.981  INFO 55495 --- [main] c.nubank.ams.AccountsServiceApplication  : Starting AccountsServiceApplication using Java 1.8.0_131 on hishams-mbp with PID 55495 (/Users/hishamsharif/projects/challenges/virtusa/test2/springboot-account-mgmt-example/target/classes started by hishamsharif in /Users/hishamsharif/projects/challenges/virtusa/test2/springboot-account-mgmt-example)
+2021-11-01 21:52:55.986 DEBUG 55495 --- [main] c.nubank.ams.AccountsServiceApplication  : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-01 21:52:55.986  INFO 55495 --- [main] c.nubank.ams.AccountsServiceApplication  : No active profile set, falling back to default profiles: default
+2021-11-01 21:52:58.120  WARN 55495 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-01 21:52:58.345  INFO 55495 --- [main] c.nubank.ams.AccountsServiceApplication  : Started AccountsServiceApplication in 2.68 seconds (JVM running for 2.964)
+2021-11-01 21:53:11.903 DEBUG 55495 --- [http-nio-8080-exec-1] c.n.a.d.service.CustomerServiceImpl      : Creating Customer 
+2021-11-01 21:53:20.340 DEBUG 55495 --- [http-nio-8080-exec-3] c.n.ams.adaptor.api.CustomerController   : Get All customers - results >> [Customer(id=100, name=John, email=john@abc.com)]

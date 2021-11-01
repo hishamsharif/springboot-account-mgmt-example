@@ -63,8 +63,8 @@ public class CustomerServiceImpl implements CustomerService {
 
 	@Override
 	public List<Customer> getCustomersByAccountId(Long accountId) {
-		// TODO Auto-generated method stub
-		return null;
+		List<Customer> cust =repository.findByAccountsId(accountId);
+		return cust;
 	}
 
 	/*

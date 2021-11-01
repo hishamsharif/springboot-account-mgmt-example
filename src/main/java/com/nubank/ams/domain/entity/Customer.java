@@ -10,8 +10,7 @@ import lombok.*;
 
 @Entity
 @Table(name = "customers")
-
-
+@NamedEntityGraph(name = "customer.accounts", attributeNodes = { @NamedAttributeNode("accounts") })  
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder 

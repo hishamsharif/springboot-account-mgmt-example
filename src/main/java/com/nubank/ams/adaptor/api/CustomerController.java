@@ -53,6 +53,10 @@ public class CustomerController {
 	// Get customers by account ID
 	@GetMapping("/accounts/{id}")
 	List<Customer> customersByAccountId(@PathVariable Long id) {
-		return customerService.getCustomersByAccountId(id);
+		
+		List<Customer> cust = customerService.getCustomersByAccountId(id);
+		logger.debug("Get All customers by account Id- results >> {}", cust);
+		
+		return cust;
 	}
 }
